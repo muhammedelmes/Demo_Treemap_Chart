@@ -13,7 +13,6 @@ var options = {
   ],
   chart: {
     type: 'treemap',
-    height: 400
   },
   colors: ['#1d2656', '#1d2656', '#1d2656', '#1d2656', '#1d2656', '#404a84ff'],
   
@@ -55,3 +54,4 @@ var options = {
 
 var chart = new ApexCharts(document.querySelector("#chart"), options);
 chart.render();
+
